@@ -190,3 +190,25 @@ width: 100%;
 .footer p{
     padding-bottom: 2%;
 }
+
+@media only screen and (max-width: 768px) {
+    .bg {
+        height: 50%;
+    }
+    input[type=text], textarea{
+        margin-left: 16%;
+    }
+    input[type=submit]{
+        margin-left: 16%;
+    }
+    .content{
+        text-align: center
+    }
+    .isi-content{
+        display: contents;
+    }
+    table {
+        margin-left: -20%;
+        margin-bottom: 15px;
+    }
+}
